@@ -1,0 +1,33 @@
+.home{
+  background-color: #081B23;
+}
+.search .form-control-feedback {
+  position: absolute;
+  right: 0;
+  z-index: 5;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+}
+
+.search{
+  position: relative;
+}
+
+.form-control::placeholder {
+  color: #28a745;
+  opacity: 1;
+}
+
+.title{
+  background: url(src/assets/svg/logobg.svg);
+  background-repeat: repeat-x;
+} 
+
+.voteAverage{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
